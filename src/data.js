@@ -2,23 +2,28 @@ export const headerNav = [
   {
     id: 1,
     title: 'Навчальний транспорт',
-    link: 'https://www.javascript.com/'
+    link: '#part1'
   },
   {
     id: 2,
     title: 'Навчальний кабінет',
-    link: 'https://www.javascript.com/'
+    link: '#part2'
   },
   {
     id: 3,
     title: 'Адреса',
-    link: 'https://www.javascript.com/'
+    link: '#part3'
   },
   {
     id: 4,
     title: 'Відгуки',
-    link: 'https://www.javascript.com/'
+    link: '#part4'
   }
+  // {
+  //   id: 5,
+  //   title: 'Викладачі',
+  //   link: 'https://www.javascript.com/'
+  // }
 ];
 
 export const ready = [
