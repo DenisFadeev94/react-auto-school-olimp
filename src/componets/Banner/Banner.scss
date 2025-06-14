@@ -1,0 +1,42 @@
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .all-cars {
+    position: absolute;
+    top: 15%;
+
+    h2 {
+      text-transform: uppercase;
+    }
+
+    h3 {
+      color: #fff;
+      text-align: center;
+      font-size: 64px;
+      line-height: 1;
+      width: 60%;
+      margin: auto;
+    }
+
+
+    .text-second {
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+
+      p {
+        color: #fff;
+        margin: 0;
+        font-size: 22px;
+
+        span {
+          color: red;
+        }
+      }
+    }
+  }
+
+
+}
