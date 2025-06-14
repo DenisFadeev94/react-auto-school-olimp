@@ -1,19 +1,23 @@
 export const headerNav = [
   {
     id: 1,
-    title: 'Навчальний транспорт'
+    title: 'Навчальний транспорт',
+    link: 'https://www.javascript.com/'
   },
   {
     id: 2,
-    title: 'Навчальний кабінет'
+    title: 'Навчальний кабінет',
+    link: 'https://www.javascript.com/'
   },
   {
     id: 3,
-    title: 'Адреса'
+    title: 'Адреса',
+    link: 'https://www.javascript.com/'
   },
   {
     id: 4,
-    title: 'Відгуки'
+    title: 'Відгуки',
+    link: 'https://www.javascript.com/'
   }
 ];
 
