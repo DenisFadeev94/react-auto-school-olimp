@@ -1,16 +1,25 @@
-.text-img {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+.title-text {
+  .text-img {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 
-  h2 {
-    color: #fff;
+    img {
+      width: 85px;
+      filter: invert(99%) sepia(0%) saturate(216%) hue-rotate(51deg) brightness(107%) contrast(100%);
+    }
   }
 
-  img {
-    width: 85px;
-    filter: invert(99%) sepia(0%) saturate(216%) hue-rotate(51deg) brightness(107%) contrast(100%);
+  h2,
+  h3 {
+    color: #fff;
+    text-align: center;
+
+  }
+
+  h3 {
+    margin: auto;
   }
 }

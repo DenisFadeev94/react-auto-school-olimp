@@ -1,0 +1,29 @@
+.ready {
+  background-image: url(../../../public/img/counter/counter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+
+  .counter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .counter-item {
+      display: flex;
+      gap: 15px;
+
+      font-size: 24px;
+      border-radius: 8px;
+      border: 1px solid rgba(17, 17, 23, 0.14);
+      padding: 20px 52px 20px;
+      background: rgba(255, 255, 255, 0.5);
+
+      .counter-item-num {
+        color: red;
+      }
+    }
+
+  }
+}

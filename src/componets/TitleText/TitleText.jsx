@@ -4,7 +4,7 @@ import TitleTextAfterImg from '../../../public/img/after-text.png';
 
 export default function TitleText({ title, description }) {
   return (
-    <>
+    <section className="title-text">
       <div className="text-img mb-5">
         <img src={TitleTextBeforeImg} alt="" />
         <h2>{title}</h2>
@@ -13,6 +13,6 @@ export default function TitleText({ title, description }) {
       </div>
 
       <h3 className="mb-5">{description}</h3>
-    </>
+    </section>
   );
 }
