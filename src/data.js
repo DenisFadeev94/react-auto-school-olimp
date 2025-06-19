@@ -29,32 +29,20 @@ export const headerNav = [
 export const ready = [
   {
     id: 1,
-    title: 'Денні та вечірні групи',
-    description: 'A JavaScript library for building user interfaces',
-    image: 'https://reactjs.org/logo-og.png',
-    link: 'https://reactjs.org/'
+    title: 'Денні та вечірні групи'
   },
   {
     id: 2,
-    title: 'Додаткові уроки з водіння автомобіля',
-    description: 'Next Generation Frontend Tooling',
-    image: 'https://vitejs.dev/logo.svg',
-    link: 'https://vitejs.dev/'
+    title: 'Додаткові уроки з водіння автомобіля'
   },
   {
     id: 3,
-    title: 'Якісна теоретична та практична підготовка',
-    description: 'A programming language for the web',
-    image: 'https://www.javascript.com/images/logo.svg',
-    link: 'https://www.javascript.com/'
+    title: 'Якісна теоретична та практична підготовка'
   },
   {
     id: 4,
     title:
-      'Оплата частинами за навчання в період підготовки. Детальна інформація про вартість навчання за вказаними номерами телефону',
-    description: 'A programming language for the web',
-    image: 'https://www.javascript.com/images/logo.svg',
-    link: 'https://www.javascript.com/'
+      'Оплата частинами за навчання в період підготовки. Детальна інформація про вартість навчання за вказаними номерами телефону'
   }
 ];
 
@@ -109,4 +97,32 @@ export const ImagesCarsSlider = [
   '../../../public/img/car/car9.jpg',
   '../../../public/img/car/car10.jpg',
   '../../../public/img/car/car11.jpg'
+];
+
+export const AboutUsFeature = [
+  {
+    id: 1,
+    title: 'Короткий термін навчання',
+    description: `Теорія - 4 тижні. Практичне навчання - 5 тижнів`,
+    image: '../../../public/img/feature/feature1.png'
+  },
+  {
+    id: 2,
+    title: 'Професійний педагогічний склад',
+    description: `
+                Наші фахівці з багаторічним досвідом роботи допоможуть Вам оволодіти всіма
+                необхідними
+                навичками для впевненого керуванням автомобілем.
+              `,
+    image: '../../../public/img/feature/feature2.png'
+  },
+  {
+    id: 3,
+    title: 'Навчальий транспорт',
+    description: `
+                Практичне навчаня з водіння автомобіля проводиться на сучасних учбових засобах з
+                механічною та автоматичною коробкою передач.
+              `,
+    image: '../../../public/img/feature/feature3.png'
+  }
 ];

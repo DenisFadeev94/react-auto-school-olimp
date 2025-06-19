@@ -3,7 +3,6 @@ import TitleText from '../TitleText/TitleText';
 import bannerImg from '../../../public/img/banner/banner.png';
 
 export default function Banner() {
-  const showDescription = false;
   return (
     <div className="banner">
       <img src={bannerImg} alt="" />

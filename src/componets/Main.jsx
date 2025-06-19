@@ -1,6 +1,7 @@
 import Banner from './Banner/Banner';
 import Ready from './Ready/Ready';
 import CarsSlider from './CarsSlider/CarsSlider';
+import AboutUs from './AboutUs/AboutUs';
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
       <Banner />
       <Ready />
       <CarsSlider />
+      <AboutUs />
     </section>
   );
 }

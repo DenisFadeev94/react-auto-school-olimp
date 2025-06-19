@@ -1,0 +1,191 @@
+.about-us {
+  background-color: #1f1f1f;
+
+  .about-us-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    .about-left {
+
+      .title {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 15px;
+        color: #e60e11;
+
+        h3 {
+          color: #f1ff3c;
+        }
+
+        img {
+          width: 55px;
+          filter: invert(99%) sepia(0%) saturate(216%) hue-rotate(51deg) brightness(107%) contrast(100%);
+        }
+      }
+
+      .title-second {
+        h3 {
+          color: #fff;
+        }
+      }
+    }
+
+    p.bolt {
+      font-weight: 500;
+    }
+
+    .hyphen {
+      list-style: none;
+
+      li {
+        position: relative;
+        margin: 2px 0 0 0;
+        padding: 0 0 4px 16px;
+        font-size: 16px;
+        color: #fff;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 13px;
+          left: 2px;
+          width: 7px;
+          height: 1px;
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  .horizontal-accordian {
+    padding: 150px 0;
+
+    .inner-container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .horizontal-accordian-content {
+      display: flex;
+      gap: 25px;
+    }
+
+    .fifth {
+      // float: left;
+      // width: 20%;
+      // padding: 0;
+      width: 100%;
+    }
+
+    .horizontal-section {
+      height: 100%;
+      position: relative;
+      min-height: 50px;
+      transition: .3s;
+      background: #1f1f1f;
+      z-index: 100;
+
+      img {
+        display: block;
+        width: 43px;
+        opacity: .75;
+        transition: .25s;
+        position: relative;
+        -webkit-backface-visibility: hidden;
+      }
+
+      &:hover img {
+        opacity: 1;
+      }
+
+      &:hover .panel-dropdown {
+        transition: .45s;
+        transform: translateY(0);
+        bottom: auto;
+      }
+    }
+  }
+
+  // Dropdown copy block, hidden behind panel before user action
+  .panel-dropdown {
+    background: white;
+    padding: 20px;
+    border-bottom: 4px solid #5AF26B;
+    transform: translateY(calc(-100% + 4px));
+    transition: .35s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .horizontal-section-image {
+    background-color: white;
+  }
+
+  .horizontal-section-userInfo {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .0));
+    width: 100%;
+    padding: 40px 20px 20px;
+    color: white;
+    opacity: 0;
+    transition: .3s;
+
+    .userInfo-container {
+      position: relative;
+      transition: opacity .25s, bottom .4s;
+      bottom: -20px;
+    }
+  }
+
+  .userInfo-container {
+    line-height: 1.7;
+
+    .handle {
+      font-size: 15px;
+      letter-spacing: .05rem;
+    }
+
+    .title {
+      font-size: 18px;
+      color: rgba(white, .7);
+    }
+  }
+
+  .horizontal-section:hover .horizontal-section-userInfo {
+    opacity: 1;
+    transition: .3s;
+
+    .userInfo-container {
+      bottom: 0;
+    }
+  }
+
+  .horizontal-section-image {
+    position: relative;
+  }
+
+
+  .horizontal-section {
+    &.one {}
+
+    &.two {}
+
+    &.three {}
+
+    &.four {}
+
+    &.five {}
+
+    &.six {}
+  }
+}
