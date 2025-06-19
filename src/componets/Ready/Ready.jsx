@@ -4,7 +4,6 @@ import bannerImg from '../../../public/img/counter/counter.png';
 import { ready } from '../../data';
 
 export default function Ready() {
-  const showDescription = false;
   return (
     <div className="ready mt-5">
       <TitleText

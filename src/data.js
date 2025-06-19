@@ -97,3 +97,16 @@ export const documents = [
     image: 'https://www.javascript.com/images/logo.svg'
   }
 ];
+
+export const ImagesCarsSlider = [
+  '../../../public/img/car/car2.jpg',
+  '../../../public/img/car/car3.jpg',
+  '../../../public/img/car/car4.jpg',
+  '../../../public/img/car/car5.jpg',
+  '../../../public/img/car/car6.jpg',
+  '../../../public/img/car/car7.jpg',
+  '../../../public/img/car/car8.jpg',
+  '../../../public/img/car/car9.jpg',
+  '../../../public/img/car/car10.jpg',
+  '../../../public/img/car/car11.jpg'
+];

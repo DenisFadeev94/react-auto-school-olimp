@@ -8,7 +8,6 @@ body {
   }
 }
 
-
 a {
   text-decoration: none;
 }
@@ -22,4 +21,40 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.swiper-container {
+  position: relative;
+
+  .swiper-controls {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    .swiper-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background: white;
+      border-radius: 8px;
+      padding: 10px 15px;
+    }
+
+    .swiper-pagination,
+    .swiper-button-prev,
+    .swiper-button-next {
+      position: unset;
+      width: auto;
+      height: auto;
+      margin: 0;
+    }
+
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      color: #000;
+      font-size: 20px;
+    }
+
+  }
 }

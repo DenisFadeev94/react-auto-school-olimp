@@ -4,6 +4,13 @@
   background-size: cover;
   padding: 140px 0;
 
+  .title-text {
+
+    h3 {
+      width: 50%;
+    }
+  }
+
   .counter {
     display: flex;
     justify-content: center;
